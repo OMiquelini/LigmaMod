@@ -4,6 +4,41 @@
     "item.ligmamod.Abundant_Ligma": "Abundant Ligma",
     "item.ligmamod.Ligma_Crystal": "Ligma Crystal",
     "item.ligmamod.Ligma_Ore": "Ligma Ore",
-    "item.ligmamod.Red_Ligma_Ore": "Red Ligma Ore",
+    "item.ligmamod.Ligma_Balls": "Ligma Balls",
 
+    "item.ligmamod.Depleated_Red_Ligma": "Depleated Red Ligma",
+    "item.ligmamod.Red_Ligma": "Red Ligma",
+    "item.ligmamod.Abundant_Red_Ligma": "Abundant Red Ligma",
+    "item.ligmamod.Red_Ligma_Crystal": "Red Ligma Crystal",
+    "item.ligmamod.Red_Ligma_Ore": "Red Ligma Ore",
+    "item.ligmamod.Red_Ligma_Balls": "Red Ligma Balls",
+
+    "item.ligmamod.Purple_Ligma_Crystal": "Purple Ligma Crystal",
+    "item.ligmamod.Purple_Ligma_Balls": "Purple Ligma Balls",
+
+    "item.ligmamod.Ligma_Pickaxe": "Ligma Pickaxe",
+    "item.ligmamod.Ligma_Axe": "Ligma Axe",
+    "item.ligmamod.Ligma_Shovel": "Ligma Shovel",
+    "item.ligmamod.Ligma_Hoe": "Ligma Hoe",
+    "item.ligmamod.Ligma_Shield": "Ligma Shield",
+
+    "item.ligmamod.Red_Ligma_Sword": "Red Ligma Sword",
+    "item.ligmamod.Red_Ligma_Helmet": "Red Ligma Helmet",
+    "item.ligmamod.Red_Ligma_Chestplate": "Red Ligma Chestplate",
+    "item.ligmamod.Red_Ligma_Leggings": "Red Ligma Leggings",
+    "item.ligmamod.Red_Ligma_Boots": "Red Ligma Boots",
+
+    "item.ligmamod.Purple_Ligma_Sword": "Purple Ligma Sword",
+    "item.ligmamod.Purple_Ligma_Helmet": "Purple Ligma Helmet",
+    "item.ligmamod.Purple_Ligma_Chestplate": "Purple Ligma Chestplate",
+    "item.ligmamod.Purple_Ligma_Leggings": "Purple Ligma Leggings",
+    "item.ligmamod.Purple_Ligma_Boots": "Purple Ligma Boots",
+    "item.ligmamod.Purple_Ligma_Pickaxe": "Purple Ligma Pickaxe",
+    "item.ligmamod.Purple_Ligma_Axe": "Purple Ligma Axe",
+    "item.ligmamod.Purple_Ligma_Shovel": "Purple Ligma Shovel",
+    "item.ligmamod.Purple_Ligma_Hoe": "Purple Ligma Hoe",
+    "item.ligmamod.Purple_Ligma_Shield": "Purple Ligma Shield",
+
+    "creativetab.Ligma_tab": "Ligma Tab"
+    
 }

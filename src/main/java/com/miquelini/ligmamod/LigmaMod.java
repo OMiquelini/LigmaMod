@@ -1,5 +1,6 @@
 package com.miquelini.ligmamod;
 
+import com.miquelini.ligmamod.items.LigmaCreativeModeTab;
 import com.miquelini.ligmamod.items.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
@@ -42,6 +43,8 @@ public class LigmaMod
     public LigmaMod()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        LigmaCreativeModeTab.register(modEventBus);
 
         // Register the DeferredRegister to the event bus
         ModItems.register(modEventBus);
