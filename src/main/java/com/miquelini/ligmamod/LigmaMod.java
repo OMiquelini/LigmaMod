@@ -69,7 +69,7 @@ public class LigmaMod
         {
             event.accept(ModItems.DEPLEATED_LIGMA.get());
             event.accept(ModItems.LIGMA.get());
-            event.accept(ModItems.LIGMA_ABUNDANT.get());
+            event.accept(ModItems.ABUNDANT_LIGMA.get());
             event.accept(ModItems.LIGMA_CRYSTAL.get());
         }
 
