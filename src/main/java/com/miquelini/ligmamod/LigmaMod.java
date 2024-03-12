@@ -1,5 +1,6 @@
 package com.miquelini.ligmamod;
 
+import com.miquelini.ligmamod.items.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.Registries;
@@ -42,6 +43,9 @@ public class LigmaMod
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        // Register the DeferredRegister to the event bus
+        ModItems.register(modEventBus);
+
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
@@ -61,6 +65,13 @@ public class LigmaMod
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS)
+        {
+            event.accept(ModItems.DEPLEATED_LIGMA.get());
+            event.accept(ModItems.LIGMA.get());
+            event.accept(ModItems.LIGMA_ABUNDANT.get());
+            event.accept(ModItems.LIGMA_CRYSTAL.get());
+        }
 
     }
 
@@ -68,7 +79,7 @@ public class LigmaMod
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event)
     {
-
+        
     }
 
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
